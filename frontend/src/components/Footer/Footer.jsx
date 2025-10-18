@@ -69,11 +69,12 @@ const Footer = () => {
               </a>
             </li>
           </ul>
+          {/* Newsletter Subscription Section */}
+      <NewsletterSubscription />
         </div>
       </div>
 
-      {/* Newsletter Subscription Section */}
-      <NewsletterSubscription />
+      
 
       <hr />
       <p className="footer-copyright">
