@@ -205,10 +205,11 @@
 
 .restaurants-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* fluid grid */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 320px)); /* centerable fixed-width tracks */
   gap: 20px;
   width: 100%;
   margin-top: 40px;
+  justify-content: center; /* center tracks within the grid container */
 }
 
 .restaurant-card {
