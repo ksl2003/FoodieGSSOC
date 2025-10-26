@@ -1,6 +1,5 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
-// import notFoundImage from "../assets/frontend_assets/404.png"; // REMOVE the image import
 import "./NotFound.css"; // NEW: Import the dedicated CSS file
 
 const NotFound = () => {
@@ -18,7 +17,7 @@ const NotFound = () => {
                 Oops! The page you’re looking for doesn’t exist.
             </p>
             <p className="not-found-text">
-                We couldn't find your order or menu item. Let's get you back home!
+                We could n't find your order or menu item. Let's get you back home!
             </p>
             
             {/* Go Home Button */}
