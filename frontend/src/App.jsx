@@ -21,7 +21,7 @@ import { Toaster } from "react-hot-toast";
 import LoadingAnimation from "./components/LoadingAnimation";
 import ScrollToTop from "../utility/ScrollToTop";
 import "./components/FoodDetail/print.css";
-import NotFound from "./pages/Notfound";
+import NotFound from "./pages/NotFound";
 import StoreContextProvider from "./components/context/StoreContext";
 import ScrollToBottom from "./components/ScrollToBottomButton/ScrollToBottomButton";
 import ReferralProgram from "./components/Referrals/ReferralProgram";
